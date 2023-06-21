@@ -16,7 +16,7 @@ const SimilarExercises: FC<{
         mt: "100px",
       }}
     >
-      <Typography variant="h3" mb="35px">
+      <Typography variant="h4" mb="35px">
         {description}
       </Typography>
 

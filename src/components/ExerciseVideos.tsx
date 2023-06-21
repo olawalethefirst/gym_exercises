@@ -11,7 +11,7 @@ const ExerciseVideos: FC<{
 
   return (
     <Box sx={{ marginTop: { xs: "100px", lg: "200px" } }}>
-      <Typography variant="h3" mb="33px">
+      <Typography variant="h4" mb="33px">
         Watch{" "}
         <span style={{ color: "#ff2625", textTransform: "capitalize" }}>
           {name}
