@@ -9,7 +9,7 @@ Key Features:
 5. Equipment Recommendations: For each viewed exercise, the application also provides recommendations for other exercises that can be performed using the same gym equipment. This feature assists users in efficiently utilizing their available equipment and expanding their workout options.
 6. User-Friendly Interface: The Gym Exercise Directory offers an intuitive and user-friendly interface, ensuring that users can effortlessly navigate through the application, access relevant exercises, and discover new workouts without any hassle.
 
-The project’s data is powered by therapidAPI endpoints, ExerciseDB. It also uses React Router for navigation and React Bootstrap component library for its user interface. 
+The project’s data is powered by the [rapidAPI](https://rapidapi.com) endpoint, [ExerciseDB](https://rapidapi.com/justin-WFnsXH_t6/api/exercisedb). It also uses [React Router](https://reactrouter.com/en/main) for navigation and [React Bootstrap](https://react-bootstrap.github.io/) component library for its user interface. 
 
 
 ## Images
