@@ -8,6 +8,7 @@ import {
   exerciseBaseUrl,
   targetExercisesBaseUrl,
   equipmentExercisesBaseUrl,
+  fetchExercises,
 } from "../utils";
 import { Exercise, YoutubeVideo } from "../types";
 import {
@@ -53,10 +54,10 @@ const ExerciseDetail = () => {
 
       try {
         if (exerciseDetailData.target) {
-          const targetMuscleExercises: Exercise[] = await fetchData(
+          const targetMuscleExercises: Exercise[] = await fetchExercises(
             `${targetExercisesBaseUrl}?target=${exerciseDetailData.target}`
           );
-          setTargetExercises(targetMuscleExercises);
+          setTargetExercises(targetMuscleExercises.slice(0, 10));
         }
       } catch (error) {
         console.error("Error fetching target exercises: ", error);
@@ -64,10 +65,10 @@ const ExerciseDetail = () => {
 
       try {
         if (exerciseDetailData.equipment) {
-          const equipmentExercises: Exercise[] = await fetchData(
+          const equipmentExercises: Exercise[] = await fetchExercises(
             `${equipmentExercisesBaseUrl}?equipment=${exerciseDetailData.equipment}`
           );
-          setEquipmentExercises(equipmentExercises);
+          setEquipmentExercises(equipmentExercises.slice(0, 10));
         }
       } catch (error) {
         console.error("Error fetching equipment exercises: ", error);

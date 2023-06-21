@@ -109,11 +109,6 @@ body {
     width: 500px;
   }
 
-  .left-arrow,
-  .right-arrow {
-    position: static !important;
-  }
-
   .exercise-card {
     width: 320px;
   }

@@ -70,6 +70,7 @@ const Exercises = () => {
 
   useEffect(() => {
     const setInitialExercises = async () => {
+      updateExercises(dispatch)([]);
       updateLoadingExercises(dispatch)(true);
 
       try {
@@ -161,9 +162,11 @@ const Exercises = () => {
       >
         {loadingExercises ? <Loader /> : null}
 
-        {currentExercises.map((exercise) => (
-          <ExerciseCard key={exercise.name} exercise={exercise} />
-        ))}
+        {!loadingExercises
+          ? currentExercises.map((exercise) => (
+              <ExerciseCard key={exercise.name} exercise={exercise} />
+            ))
+          : null}
 
         {exercises.length === 0 && !loadingExercises ? (
           <Typography variant="h5">No result</Typography>

@@ -12,11 +12,11 @@ const App: React.FunctionComponent = () => {
     <BrowserRouter>
       <ScrollToTopOnRouteChange />
       <ExercisesProvider>
-        <Box sx={{ width: { xl: "1488px" } }} m="auto">
+        <Box sx={{ maxWidth: "1488px" }} m="auto">
           <Navbar />
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/exercise/:id" element={<ExerciseDetail />} />
+            <Route path="/" Component={Home} />
+            <Route path="/exercise/:id" Component={ExerciseDetail} />
           </Routes>
         </Box>
         <Footer />

@@ -1,10 +1,10 @@
 export default async function isValidImageUriAsync(imageUri: string) {
   const response = await fetch(imageUri);
-  const imageBlob = await response.blob();
 
-  if (imageBlob.type.startsWith("image/")) {
+  if (!response.ok) {
     return true;
   } else {
-    return false;
+    const imageBlob = await response.blob();
+    return imageBlob.type.startsWith("image/");
   }
 }
