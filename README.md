@@ -14,10 +14,13 @@ The project’s data is powered by the [rapidAPI](https://rapidapi.com) endpoint
 
 ## Images
 
-![olawalethefirst-gym-exercises netlify app_(Large Laptop)](https://github.com/olawalethefirst/gym_exercises/assets/66824020/6716e6b8-8e9c-4de2-963d-45dd91e440d8)
+![olawalethefirst-gym-exercises netlify app_(Large Laptop)](https://github.com/olawalethefirst/gym_exercises/assets/66824020/361e21cc-e168-44ba-af4b-836281539622)
 
-![olawalethefirst-gym-exercises netlify app_(iPhone SE)](https://github.com/olawalethefirst/gym_exercises/assets/66824020/3c36d2d9-0ec6-4089-abec-526c812aa143)
+![olawalethefirst-gym-exercises netlify app_(iPhone SE)](https://github.com/olawalethefirst/gym_exercises/assets/66824020/89a9f3fd-e874-4e84-b112-a10e3aa36046)
 
-![olawalethefirst-gym-exercises netlify app_ (1)](https://github.com/olawalethefirst/gym_exercises/assets/66824020/f3330598-8d47-4d4e-a512-1d949259b4a7)
+![olawalethefirst-gym-exercises netlify app_ (1)](https://github.com/olawalethefirst/gym_exercises/assets/66824020/4ae83808-b433-43d5-be4b-f460f8b7cf4e)
 
-![olawalethefirst-gym-exercises netlify app_(iPad Pro)](https://github.com/olawalethefirst/gym_exercises/assets/66824020/83429e67-07c7-4f96-b968-58093df19462)
+![olawalethefirst-gym-exercises netlify app_(iPad Pro)](https://github.com/olawalethefirst/gym_exercises/assets/66824020/972e5e5c-9092-478a-98a2-00be4fdf1fd0)
+
+![olawalethefirst-gym-exercises netlify app_(iPhone 12 Pro)](https://github.com/olawalethefirst/gym_exercises/assets/66824020/56a11eea-e476-458b-9398-c063c3a7ec36)
+
