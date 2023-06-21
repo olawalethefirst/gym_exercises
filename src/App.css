@@ -1,0 +1,148 @@
+body {
+  font-family: "Josefin Sans";
+  background-color: #fffafb;
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.right-arrow,
+.left-arrow {
+  cursor: pointer;
+  background: transparent;
+  outline: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ff2625;
+  font-size: 25px;
+  border-radius: 4px;
+  transition: 0.3s all ease-in-out;
+}
+
+.right-arrow:hover,
+.left-arrow:hover {
+  transform: scale(1.3, 1.3);
+}
+
+.react-horizontal-scrolling-menu--wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.detail-image {
+  flex: 1;
+}
+
+.exercise-card {
+  width: 350px;
+  min-height: 550px;
+  background: #fff;
+  border-top: 4px solid #ff2625;
+  border-bottom-left-radius: 20px;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-bottom: 10px;
+  transform: scale(1);
+  transition: 0.3s all ease-in-out;
+}
+
+.exercise-card img {
+  margin-top: 30px;
+}
+
+.bodyPart-card {
+  transition: 0.3s all ease-in-out;
+}
+.bodyPart-card-img,
+.bodyPart-card-text {
+  transform: scale(1, 1);
+  transition: 0.3s all ease-in-out;
+}
+.bodyPart-card:hover .bodyPart-card-img,
+.bodyPart-card:hover .bodyPart-card-text {
+  transform: scale(1.2);
+}
+
+.exercise-card:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+.search-btn:hover {
+  color: #ff2625 !important;
+  border: 1px solid #ff2625 !important;
+}
+
+.exercise-video {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 350px;
+  text-decoration: none;
+  transition: 0.3s all ease-in-out;
+}
+
+.exercise-video:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1200px) {
+  .detail-image {
+    width: 85%;
+  }
+
+  .react-horizontal-scrolling-menu--scroll-container {
+    width: 500px;
+  }
+
+  .left-arrow,
+  .right-arrow {
+    position: static !important;
+  }
+
+  .exercise-card {
+    width: 320px;
+  }
+
+  .exercise-video {
+    width: calc(50% - 30px);
+  }
+}
+
+@media screen and (max-width: 641px) {
+  .detail-image {
+    width: 100%;
+  }
+
+  .exercise-video {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .exercise-card {
+    width: 280px;
+  }
+
+  .exercise-video {
+    width: 100%;
+  }
+}
+
+.horizontal-scroll {
+  gap: 20px;
+}
