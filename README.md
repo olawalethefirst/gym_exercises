@@ -1,5 +1,5 @@
 # Gym Exercises Project Summary 
-This a React application designed to provide users with a comprehensive collection of exercises for various body parts, muscle groups, different equipments, and specific search keywords. The application offers a user-friendly interface that allows users to browse and discover exercises tailored to their specific needs and interests.
+This a React application designed to provide users with a comprehensive collection of exercises for various body parts, muscle groups, gym equipments, and search keywords. The application offers a user-friendly interface that allows users to browse and discover exercises tailored to their specific needs and interests.
 
 Key Features:
 1. Exercise Categorization: The application categorizes exercises based on target body parts, enabling users to easily navigate and find exercises relevant to their fitness goals.
